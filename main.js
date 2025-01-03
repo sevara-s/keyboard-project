@@ -3,12 +3,12 @@ document.addEventListener('keydown', function(event) {
     const card2 = document.getElementById('card2');
     const card3 = document.getElementById('card3');
 
-    let keyDisplay = event.key;
-    if (event.key === ' ') keyDisplay = 'Space';
-    if (event.key === 'Backspace') keyDisplay = 'Backspace';
-    if (event.key === 'Escape') keyDisplay = 'Escape';
+    let  key = event.key;
+    if (event.key === ' ')  key = 'Space';
+    if (event.key === 'Backspace')  key = 'Backspace';
+    if (event.key === 'Escape')  key = 'Escape';
 
-    card1.textContent = keyDisplay;        
+    card1.textContent =  key;        
     card2.textContent = event.keyCode;     
     card3.textContent = event.code;        
 });
