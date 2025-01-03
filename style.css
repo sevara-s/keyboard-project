@@ -27,3 +27,17 @@ body {
     font-size: 30px;
     text-align: center;
 }
+@media(max-width:950px){
+    .card{
+        width: 150px;
+        height: 150px;
+        font-size: 20px;
+    }
+}
+@media(max-width:500px){
+    .card{
+        width: 80px;
+        height: 80px;
+        font-size: 20px;
+    }
+}
